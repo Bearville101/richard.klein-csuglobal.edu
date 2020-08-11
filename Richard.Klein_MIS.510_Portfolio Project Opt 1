@@ -1,0 +1,20 @@
+---
+title: "Module 6 CT Option 1"
+author: "Richard Klein"
+date: "7/31/2020"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. Understand Business - College Course Registration 
+
+## 2. Understand Data - CourseTopics - contains eight attributes which are course that can be taken by students
+
+# Load and Explore Data 
+```{r}
+course.df <- read.csv ("CourseTopics.csv")
+course.df[1:20, ]
+```
